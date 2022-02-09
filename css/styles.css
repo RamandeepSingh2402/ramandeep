@@ -1,0 +1,83 @@
+body{
+    margin-left: 50px;
+    background-color: black;
+    color: lightblue;
+}
+h1{
+    color: rebeccapurple;
+    text-align: center;
+    background-color: lightcyan;
+    border-radius: 50%;
+}
+h2{
+    color: saddlebrown;
+    text-align: justify;
+}
+h2,h3,h4,h5{
+    color: beige;
+    margin: auto;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: whitesmoke underline;
+}
+img{
+    display: flex;
+    border-radius: 100%;
+    margin: auto;
+    float: left;
+    align-self:flex-start ;
+    width: 200px;
+    height: 250px;
+}
+#experiences{
+    display: flex;
+    flex-direction: column;
+}
+#experiences li{
+    padding: 5px;
+}
+
+#skills{
+    display: flex;
+    flex-direction: column;
+}
+#skills li{
+    padding: 5px;
+}
+#accomplishments{
+    display: flex;
+    flex-direction: column;
+}
+#accomplishments li{
+    padding: 5px;
+}
+h2{
+    padding-left: 15%;
+}
+h3{
+    margin-left: 25px
+}
+h4{
+    margin-left: 25px;
+}
+#footer{
+    background-color: turquoise;
+}
+#contact{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+}
+#contact a{
+    text-decoration: none;
+    color: white;
+    padding-left: 1%;
+    padding-right: 10%;
+}
+/*==================================================
+=====================================================
+=====================================================*/
+@media screen and (max-width:900px){
+    body{
+        background-color: steelblue;
+    }
+}
