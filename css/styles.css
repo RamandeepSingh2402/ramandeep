@@ -22,11 +22,12 @@ h2,h3,h4,h5{
 img{
     display: flex;
     border-radius: 100%;
+    margin-top: 40%;
     margin: auto;
     float: left;
     align-self:flex-start ;
-    width: 200px;
-    height: 250px;
+    width: 20%;
+    height: 25%;
 }
 #experiences{
     display: flex;
